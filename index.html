@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src = "bootstrap\jquery.js"></script>
+  <script src = "bootstrap\js\bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
+  <link rel="stylesheet" href="index.css">
+  <title>mynsight</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary naav">
+      mynsight
+    </nav>
+    <div class="form-group contents">
+      <div class="form-group selectCat">
+       <select id= "selectorCat" class="custom-select">
+         <option selected="">Default</option>
+       </select>
+     </div>
+     <button type="button" id ="OpenNewCat" class="btn btn-outline-primary">New</button>
+     <div id = "MenuNewCategory" style="display:none;">
+       <input type="text" class="form-control" placeholder="New Category" id="newCategory">
+       <button type="button" id ="saveCat" class="btn btn-outline-info">Save</button>
+       <div class="form-group selectCatDel">
+        <select id= "selectorCatDel" class="custom-select">
+          <option selected="">Default</option>
+        </select>
+      </div>
+      <button type="button" id ="delCat" class="btn btn-outline-danger">Erase</button>
+     </div>
+     <small id="pageTitle" class="form-text text-muted"></small>
+     <textarea class="form-control" id="insight" rows="3" placeholder ="Your insight comes here..."></textarea>
+     <div class= "card-footer text-muted footerButtons">
+        <button type="button" id="saveNote" class="btn btn-primary bfooter">Save</button>
+        <button type="button" id="collection" class="btn btn-secondary bfooter">Collection</button>
+      </div>
+    </div>
+  </div>
+<script src = "mynsight.js"></script>
+</body>
+</html>

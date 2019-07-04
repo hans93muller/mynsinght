@@ -1,0 +1,31 @@
+#content{
+  position:relative;
+  margin: 0px 4% 0px 4%;
+}
+
+#head{
+  display:block;
+  margin-top: 10px;
+  margin-left: 42%;
+  align: center;
+}
+
+#tUse{
+  position: absolute;
+  margin-left: 96%;
+}
+
+#mInUse{
+  position:absolute;
+}
+
+.myTabs{
+  width:100%;
+  position:relative;
+  display:block;
+}
+
+.myTable{
+  position:relative;
+  width:100%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>mynsight collections</title>
+  <script src = "bootstrap\jquery.js"></script>
+  <script src = "bootstrap\js\bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="bootstrap\css\bootstrap.css">
+  <link rel="stylesheet" href="collection.css">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary naav">
+    mynsight
+  </nav>
+  <div id= 'content'>
+    <div id="head">
+    <h1>Collections</h1>
+    </div>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#insight">insights</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#stats">stats</a>
+    </li>
+  </ul>
+  <div id="myTabContent" class="tab-content myTabs">
+    <div class="tab-pane fade active show" id="insight">
+      <table class="table table-hover myTable">
+        <thead>
+          <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Site</th>
+            <th scope="col">Page</th>
+            <th scope="col">Category</th>
+            <th scope="col">insight</th>
+          </tr>
+        </thead>
+        <tbody id="tableContent">
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane fade" id="stats">
+      <h3>Memory Status</h3>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" id='progressBar' role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+        <div id="mInUse">0mb</div><div id="tUse">5mb</div>
+      </div>
+      <p>
+      <h5 id="howMuchSaved">Go make your first note</h5>
+    </p>
+    </div>
+  </div>
+
+  </div>
+<script src = "collection.js"></script>
+</body>
+</html>

@@ -8,7 +8,19 @@ Mynsinght is a chrome extension tool that allow user to create and categorazy no
 Every time the user visite the same page they have access to the insights saveds.
 Could be a author's wikipedia page to summarise ideas or notes in a long youtube video.
 
-![alt text](https://github.com/hans93muller/mynsinght/blob/master/screenshots/screen.png?raw=true)
+![window with extension](https://github.com/hans93muller/mynsinght/blob/master/screenshots/screen.png?raw=true)
+
+You can create categories
+
+![panel menu](https://github.com/hans93muller/mynsinght/blob/master/screenshots/categories.png?raw=true)
+
+And have access later on what you had saved so far
+
+![collections](https://github.com/hans93muller/mynsinght/blob/master/screenshots/collections.png?raw=true)
+
+You can take a look how much local memory yours notes are consuming
+
+![stats](https://github.com/hans93muller/mynsinght/blob/master/screenshots/memory.png?raw=true)
 
 ### Prerequisites
 

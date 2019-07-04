@@ -4,7 +4,11 @@ Chrome Extension to help to summarise pages and insights .
 
 ## Getting Started
 
+Mynsinght is a chrome extension tool that allow user to create and categorazy notes for pages.
+Every time the user visite the same page they have access to the insights saveds.
+Could be a author's wikipedia page to summarise ideas or notes in a long youtube video.
 
+![alt text](https://github.com/hans93muller/mynsinght/blob/master/screenshots/screen.png?raw=true)
 
 ### Prerequisites
 
